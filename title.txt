@@ -1,0 +1,1 @@
+Master's thesis at Miami University. GUI software that analyze the Hamiltonian due to the interaction (light shift) between atoms' internal quantum states and external electric fields. Application: 3D contour plots of optical lattices (maximized light shift), 3D contour plot slides of light shift, and vibrational frequencies.
