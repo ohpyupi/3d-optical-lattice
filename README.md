@@ -1,28 +1,42 @@
 #3D Visualization of Optical Lattice
 
-####################################################################################
-### Update notesAll functions has been generalized with transition inputs (2016/2/22)
-####All functions has been generalized with transition inputs (2016/2/22)
-####Transition inputs 1, 2, 3, 4 are included
-####Finding minima values and optimized slice for optical lattice algorithm included (2016/2/22)
-####Elelctirc field configuration for in-plane in standard tetrahedron
-####make available for 1/2 case (integer issue!) (2016/2/27)
-####Module packages have been created (functions.py, mathematics.py) (2016/2/27)
-####ST case: Electric field configurations has been generailzed (2016/2/27)
-####Hamiltonian Class (Beamsplitting) has been added (2016/3/4)
-####Primitive GUI has been developed
-####UI has been upgraded (selectable and user-custom laser configurations)
-####Hamiltonian Class Umbrella has been added
-####Usercustomized pol config for standard tetrahedron updated (2016/3/13)
-####image slide save application has been added (2016/3/14)
-####Optimization added (2016/4/4)
-####Single plots and double plots (2016/4/4)
-####vibrational frequency ver 1.0
-####vibrational frequency ver 2.0 -- Trivial python grammar has been corrected. It works good
+  This software is developed for scientists who work on the realization of optical lattices. For convenience, the graphical user interface has been added to the software for users who does not have deep computer programming backgrounds.
 
-### To-do lists
-#### Reference buttons
+### Installation
 
-####################################################################################
+  Before using the software, it is required to install few open source Python packages. We will briefly describe how to install the packages based on OS, such as Ubuntu, Mac, and Windows.
+
+#### 1. Scipy Stack
+
+  Scipy stack is a collection of open souce packages for scientific computing in Python. In our software, Numpy and Matplotlib are the primary packages that used for the calculation and visulization of optical lattices.
+  
+##### Ubuntu
+
+```
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
+
+##### Mac
+
+```
+sudo port install py27-numpy py27-scipy py27-matplotlib py27-ipython +notebook py27-pandas py27-sympy py27-nose
+```
+
+##### Windows
+
+For Windows users, the easiest way to install the packages of Scipy stack is to download one of these Python distributions, which includes all the key packages:
+
+[Anaconda](https://www.continuum.io/downloads)
+[Enthought Canopy](https://www.enthought.com/products/canopy/)
+[Python(x,y)](http://python-xy.github.io/)
+[WinPython](http://winpython.github.io/)
+[Pyzo](http://www.pyzo.org/)
 
 
+#### 2. QuTiP
+
+##### Ubuntu
+
+##### Mac
+
+##### Windows
