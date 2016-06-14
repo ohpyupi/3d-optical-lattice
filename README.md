@@ -70,9 +70,9 @@ sudo apt-get setup.py install
 
 ##### Windows
 
-1. Install the Python(X,Y) distribution (tested with version 2.7.3.1). Other Python distributions, such as Enthought Python Distribution or Anaconda CE have also been reported to work.
-2. When installing Python(x,y), explicitly select to include the Cython package in the installation. This package is not selected by default.
-3. Add the following content to the file C:/Python27/Lib/distutils/distutils.cfg (or create the file if it does not already exists):
+- Install the Python(X,Y) distribution (tested with version 2.7.3.1). Other Python distributions, such as Enthought Python Distribution or Anaconda CE have also been reported to work.
+- When installing Python(x,y), explicitly select to include the Cython package in the installation. This package is not selected by default.
+- Add the following content to the file C:/Python27/Lib/distutils/distutils.cfg (or create the file if it does not already exists):
 ```
 [build]
 compiler = mingw32
@@ -80,7 +80,7 @@ compiler = mingw32
 [build_ext]
 compiler = mingw32
 ```
-The directory where the distutils.cfg file should be placed might be different if you have installed the Python environment in a different location than in the example above.
-4. Obtain the QuTiP source code and installed it following the instructions given above.
+*The directory where the distutils.cfg file should be placed might be different if you have installed the Python environment in a different location than in the example above.*
+- Obtain the QuTiP source code and installed it following the instructions given above.
 
 For more detail on the installation of QuTiP, please refer to [official document link](http://qutip.org/docs/3.1.0/installation.html#installing-from-source)
