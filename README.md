@@ -5,11 +5,11 @@
   1. Scipy Stack
   2. Cython (optional)
   3. QuTiP
-3. Applications
-  1. Single Plots
-  2. Double Plots
-  3. Silde Plots
-  4. Vibrational Frequencies
+  4. How to start the software
+3. Directions
+  1. Basic window
+  2. Standard Tetrahedron config.
+  3. Umbrella-like config.
 4. Examples
 5. Reference
 
@@ -86,5 +86,22 @@ compiler = mingw32
 
 For more detail on the installation of QuTiP, please refer to [official document link](http://qutip.org/docs/3.1.0/installation.html#installing-from-source)
 
-## 3. Applications
+#### 2.iv How to start the software
+
+Once you are done with all the installation procedure above, you need to download the software using the command 'git clone' on your terminal.
+```
+git clone https://github.com/ohpyupi/3d-optical-lattice.git
+```
+Then, go to the directory, type the command
+```
+cd 3d-optical-lattice
+```
+To start the software, type the command
+```
+python optlattice.py
+```
+
+Finally, you are ready to use the software and plot optical lattice with your choice of atomic transitions and laser configurations!
+
+## 3. Directions
 
