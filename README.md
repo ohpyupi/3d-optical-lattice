@@ -1,25 +1,26 @@
 #3D Visualization of Optical Lattice
 
-1. Installation
+1. Abstract 
+2. Installation
   1. Scipy Stack
   2. Cython (optional)
   3. QuTiP
-2. Applications
+3. Applications
   1. Single Plots
   2. Double Plots
   3. Silde Plots
   4. Vibrational Frequencies
-3. Examples
-4. Reference
+4. Examples
+5. Reference
 
+## 1. Abstract
+My master's research began with Brownian motors at Miami University. Brownian motor is a motor that can extract net work from external noise field at certain conditions, such as at non-equilibrium state or at specific symmetry breaking state. One of the physical realization of Brownian motor system is atomic system that lies in optical lattices. Optical lattices originially rise from the interaction between laser-induced dipole moment of atomic system and external laser beam fields. One of the reasons why optical lattices are fit to Brownian motor experiment is that the lattices can be tuned very easily. During my research time, my research collaborator who actually aimed to build optical lattices asked our theory team to build optical lattice simulation software with appropriate graphical user interface(GUI). Thus, as my master's thesis work, I built a GUI software for simulating optical lattices. In our study, we have assumed that the atoms are at low saturation so that the optical pumping time is much longer than the spontaneous emission tiem. In accordance with such conditions, the excited states dependence has bee deleted adiabatically and the optical lattice can be deducted from finding the eigenvalues of the Hamiltonian operator. For the software framework, Python and its libraries, such as Scipy and QuTip have been used. I sincerely wish the software will be used by any scientists who realize optical lattices in lab environments and it will guide their future research.
 
-This software is developed for scientists who work on the realization of optical lattices. For convenience, the graphical user interface has been added to the software for users who does not have deep computer programming backgrounds.
-
-### Installation
+## 2. Installation
 
 Before using the software, it is required to install few open source Python packages. We will briefly describe how to install the packages based on OS, such as Ubuntu, Mac, and Windows.
 
-#### 1. Scipy Stack
+#### 2.i Scipy Stack
 
 Scipy stack is a collection of open souce packages for scientific computing in Python. In our software, Numpy and Matplotlib are the primary packages that used for the calculation and visulization of optical lattices.
   
@@ -48,9 +49,9 @@ For Windows users, the easiest way to install the packages of Scipy stack is to 
 For more detail on the installation of Scipy Stack, please refer to the [official Scipy document](https://www.scipy.org/install.html)
 
 
-#### 2. Cython (For those who don't use Python distributions above)
+#### 2.ii Cython (For those who don't use Python distributions above)
 
-If you are Ubuntu user and followed the step above, you might need to additionall install Cython packages manually. One of the recommended way of installing is to get source code from git repository.
+If you are Ubuntu user and followed the step above, you might need to additionally install Cython packages manually. One of the recommended way of installing is to get source code from git repository.
 
 ##### Ubuntu & Mac
 
@@ -59,7 +60,7 @@ Download latest version of Cython. [Git link](https://github.com/cython/cython)
 sudo apt-get setup.py install
 ```
 
-#### 3. QuTiP
+#### 2.iii QuTiP
 
 ##### Ubuntu $ Mac
 
@@ -84,3 +85,6 @@ compiler = mingw32
 - Obtain the QuTiP source code and installed it following the instructions given above.
 
 For more detail on the installation of QuTiP, please refer to [official document link](http://qutip.org/docs/3.1.0/installation.html#installing-from-source)
+
+## 3. Applications
+
