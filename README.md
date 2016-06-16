@@ -104,20 +104,42 @@ python optlattice.py
 Finally, you are ready to use the software and plot optical lattice with your choice of atomic transitions and laser configurations!
 
 ## 3. Directions
-<p align='center'>
-<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/intro-window.png?raw=true' width='30%' ></img>
-</p>
-<p align='center'>
+
+#### 3.i Basic window tab
+
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/intro-window.png?raw=true' width='30%' align='center'></img>
+
+Bascic window tab description goes here.
+
+#### 3.ii Standard tetrahedron config. tab
+
 <img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/standard-window.png?raw=true' width='100%'></img>
-</p>
-<p align='center'>
+
+Standard tetrahedron window tab description goes here.
+
+#### 3.iii Umbrella-like config. tab
+
 <img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/umbrella-window.png?raw=true' width='100%'></img>
-</p>
+
+Umbrella-like window tab description goes here.
 
 ## 4. Examples
 
-<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-one.png?raw=true' width='40%'></img>
-<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-two.png?raw=true' width='40%'></img>
-<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-three.png?raw=true' width='40%'></img>
+#### 4.i Single plots
+
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-one.png?raw=true' width='49%'></img>
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-two.png?raw=true' width='49%'></img>
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-three.png?raw=true' width='49%'></img>
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-four.png?raw=true' width='49%'></img>
+
+#### 4.ii Double plots
+
+#### 4.iii Save slides
+
+#### 4.iv Dipople moment
+
+#### 4.v Vibrational frequency
+
+#### 4.vi Wave vectors & polarization
 
 
