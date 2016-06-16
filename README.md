@@ -104,4 +104,12 @@ python optlattice.py
 Finally, you are ready to use the software and plot optical lattice with your choice of atomic transitions and laser configurations!
 
 ## 3. Directions
+<img src='' width='100%'></img>
+<img src='' width='100%'></img>
+## 4. Examples
+
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-one.png?raw=true' width='40%'></img>
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-two.png?raw=true' width='40%'></img>
+<img src='https://github.com/ohpyupi/3d-optical-lattice/blob/master/figures/etc/sample-three.png?raw=true' width='40%'></img>
+
 
